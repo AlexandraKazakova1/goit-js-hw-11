@@ -16,6 +16,9 @@ button {
   color: #fff;
   border-color: #4e75ff;
 }
+button:hover {
+  background-color: #6c8cff;
+}
 
 .gallery {
   display: grid;
@@ -67,4 +70,11 @@ input {
   height: 40px;
   border: 1px solid #808080;
   border-radius: 4px;
+}
+input:hover {
+  border-color: #000;
+}
+
+input:focus {
+  border-color: #4e75ff;
 }
