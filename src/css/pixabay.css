@@ -7,6 +7,16 @@ header {
   margin-bottom: 20px;
 }
 
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 91px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  border-color: #4e75ff;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -51,4 +61,10 @@ img {
 
 .loader.hidden {
   display: none;
+}
+
+input {
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
 }
