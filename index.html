@@ -3,18 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Async JS and Date</title>
-    <link rel="stylesheet" href="./css/common.css" />
+    <title>Homework 11</title>
     <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-BrddEoy-.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-z5ZkySc-.css">
   </head>
   <body>
-    <form class="d-flex align-items-center justify-content-center search-form">
-      <div class="form-group m-3">
-        <input type="text" class="form-control" name="query" />
-      </div>
+    <header>
+      <form id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          placeholder="Search images..."
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
 
-      <button type="submit" class="btn btn-primary">Search</button>
-    </form>
+    <div class="gallery"></div>
+
+    <div class="loader hidden"></div>
 
   </body>
 </html>
